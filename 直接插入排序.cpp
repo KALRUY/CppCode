@@ -18,4 +18,4 @@ int main()
     }
 	return 0;
 }
-//fast O(n), avg O(n^2)
+//Time complexity:fast O(n), avg O(n^2),Stability: Stable.
