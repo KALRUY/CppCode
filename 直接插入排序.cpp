@@ -18,3 +18,4 @@ int main()
     }
 	return 0;
 }
+//fast O(n), avg O(n^2)
