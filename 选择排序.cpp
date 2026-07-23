@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-int n,a[10];
+int n,a[11];
 int main(){
     cin>>n;
     for(int i=1;i<=n;i++){
@@ -18,3 +18,4 @@ int main(){
     }
 }
 //Time complexity: best&worst: O(n^2), Stability: Unstable.
+//Test: 24ms,788kb
