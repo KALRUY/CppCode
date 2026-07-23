@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int n,a[10],c[10];
+int n,a[11],c[11];
 void solve(int l,int r){
     if(l==r) return;
     if(r-l==1){
@@ -34,3 +34,4 @@ int main()
 	return 0;
 }
 //i,j are left and right pointers. Time Complexity: O[nlog2(n)]. Stability: Stable.
+//Test: 0~24ms,788~816kb.
