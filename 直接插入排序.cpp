@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-	int n,a[10];
+	int n,a[11];
     cin>>n;
     for(int i=1;i<=n;i++){
         cin>>a[i];
@@ -19,3 +19,4 @@ int main()
 	return 0;
 }
 //Time complexity:fast O(n), avg O(n^2),Stability: Stable.
+//Test:24ms,1064kb
